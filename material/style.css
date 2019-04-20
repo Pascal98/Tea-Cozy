@@ -106,8 +106,14 @@ body
 .section3
 {
 	background-image: url(img-locations-background.jpg);
-	height: 500px;
+	height: 550px; /*not 500px because it would be cropped too much*/
 	width: 1200px;
+	position: relative;
+	top: 50px;
+}
+
+.section3 h2
+{
 	position: relative;
 	top: 50px;
 }
@@ -116,13 +122,46 @@ body
 {
 	display: flex;
 	justify-content: center;
+	position: relative;
+	align-items: center;
+	top: 40px;
 }
 
 .section3 .content .column
 {
 	width: 300px;
-	height: 300px;
+	height: 270px;
 	background-color: black;
+	margin: 0 20px;
+}
+
+.section3 .content .column h3, p
+{
+	line-height: 1.5;
+}
+
+/*Footer*/
+
+#footer
+{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	top: 110px;
+}
+
+#footer .info h5
+{
+	position: relative;
+	top: 15px;
+}
+
+.copyright h5
+{
+	text-align: left;
+	position: relative;
+	top: 100px;
+	margin-left: 20px;
 }
 
 
